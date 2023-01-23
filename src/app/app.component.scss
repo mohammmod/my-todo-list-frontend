@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height:100% ;
+}
+
+.column {
+    width: 33%; 
+    height: 100%;
+}
+
+.first {
+    flex: 1;
+    background: #23a;
+}
+
+.second {
+    flex: 1;
+    background: #49b;
+}
+
+.third {
+    flex: 2;
+    background: green;
+}
+
+.layout{
+    display: flex;
+    min-height: 11em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
