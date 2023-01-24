@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { MaterialModule } from './material.module';
+import { UserprofileComponent } from '../userprofile/userprofile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,

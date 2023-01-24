@@ -1,0 +1,22 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{title}}</mat-card-title>
+    </mat-card-header>
+    <img class="profile-image" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+        <div>Name</div>
+        <div>email</div>
+        <div class="icons">
+            <mat-icon (click)="alertme()">notifications</mat-icon>
+            <mat-icon (click)="alertme()"> message</mat-icon>
+            <mat-icon (click)="alertme()">settings</mat-icon>
+        </div>
+        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+        <mat-list-item class="tasks" *ngFor="let task of tasks">
+            <div matListItemTitle>{{task.number}}</div>
+            <div matListItemLine>{{task.status }}</div>
+        </mat-list-item>
+    </mat-card-content>
+  </mat-card>
+  
+  
